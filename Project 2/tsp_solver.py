@@ -1,6 +1,7 @@
 # tsp_solver.py
 
 import random
+import time
 from tsp import (
     generate_cities,
     random_tour,
@@ -16,6 +17,8 @@ def solve_tsp(
     coord_min=0,
     coord_max=100
 ):
+    start_time = time.perf_counter()  # start timing
+
     random_gen = random.Random(seed)
 
     cities = generate_cities(
@@ -60,6 +63,9 @@ def solve_tsp(
             best_tour = current_tour
             best_initial_cost = initial_cost
 
+    end_time = time.perf_counter()
+    runtime_ms = (end_time - start_time) * 1000  # convert to milliseconds
+
     return {
         "status": "success",
         "num_cities": num_cities,
@@ -69,5 +75,6 @@ def solve_tsp(
         "initial_cost": best_initial_cost,
         "best_cost": best_cost,
         "iterations": total_iterations,
-        "seed": seed
+        "seed": seed,
+        "runtime_ms": runtime_ms
     }

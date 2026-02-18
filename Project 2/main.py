@@ -114,14 +114,14 @@ def run_tsp_tests(result, cities):
         print("tsp: local minimum test failed")
 
 def print_astar_summary(result):
-    print("===== A* Summary =====")
+    print("A* Summary:")
     print(f"Total Cost: {result['total_cost']}")
     print(f"Steps: {result['steps']}")
     print()
 
 
 def print_tsp_summary(result):
-    print("===== TSP Summary =====")
+    print("TSP Summary:")
     print(f"Best Cost: {result['best_cost']}")
     print(f"Cities: {result['num_cities']}")
     print()

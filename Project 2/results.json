@@ -51,7 +51,7 @@
                 4
             ]
         ],
-        "runtime_ms": 0.0743,
+        "runtime_ms": 0.0801,
         "start": [
             0,
             0
@@ -171,6 +171,7 @@
         "iterations": 855,
         "num_cities": 20,
         "restarts": 20,
+        "runtime_ms": 204.30800000031013,
         "seed": 46,
         "status": "success"
     }
