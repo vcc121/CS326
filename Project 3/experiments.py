@@ -1,30 +1,46 @@
 import json
+import os
+
 import sudoku
 import map_coloring
-import os
+
 
 def run_experiments():
 
-    print("Starting CSP experiments...\n")
+    print("\nStarting CSP experiments...\n")
 
-    configs = [
+    map_configs = [
         "baseline",
         "mrv",
         "mrv_fc",
         "mrv_fc_ac"
     ]
 
+    sudoku_easy_configs = [
+        "mrv",
+        "mrv_fc",
+        "mrv_fc_ac"
+    ]
+
+    sudoku_hard_configs = [
+        "mrv_fc",
+        "mrv_fc_ac"
+    ]
+
     results = []
+    run_count = 1
 
-    # Map coloring
-    print("Running Map Coloring experiments...\n")
+    # ----------------------------
+    # MAP COLORING
+    # ----------------------------
 
-    for config in configs:
+    print("Running Map Coloring Experiments\n")
 
-        print(f"Running Map Coloring | config = {config}")
+    for config in map_configs:
+
+        print(f"[Run {run_count}] Map | config={config}")
 
         map_csp = map_coloring.build_map_csp()
-
         sol, metrics = map_csp.solve(config)
 
         entry = {
@@ -39,28 +55,32 @@ def run_experiments():
 
         results.append(entry)
 
-    print("\nMap Coloring experiments complete.\n")
+        run_count += 1
 
-    # Sudoku
-    print("Running Sudoku experiments...\n")
+    print("\nMap Coloring Experiments Complete\n")
+
+    # ----------------------------
+    # SUDOKU
+    # ----------------------------
+
+    print("Running Sudoku Experiments\n")
 
     for name, grid in sudoku.instances.items():
 
+        # detect difficulty by name
         if name.lower() == "easy1":
             configs = ["baseline", "mrv", "mrv_fc", "mrv_fc_ac"]
 
         elif "hard" in name.lower():
             configs = ["mrv_fc", "mrv_fc_ac"]
-
         else:
-            configs = ["mrv", "mrv_fc", "mrv_fc_ac"]
+            configs = sudoku_easy_configs
 
         for config in configs:
 
-            print(f"Running Sudoku | puzzle = {name} | config = {config}")
+            print(f"[Run {run_count}] Sudoku | puzzle={name} | config={config}")
 
             sudoku_csp = sudoku.build_sudoku_csp(grid)
-
             sol, metrics = sudoku_csp.solve(config)
 
             entry = {
@@ -75,22 +95,27 @@ def run_experiments():
 
             results.append(entry)
 
-    print("\nSudoku experiments complete.\n")
+            run_count += 1
 
-    # Get project folder path
-    project_dir = os.path.dirname(os.path.abspath(__file__))
-    output_path = os.path.join(project_dir, "results.json")
+    print("\nSudoku Experiments Complete\n")
 
-    # Convert tuple keys inside solutions so JSON can save them
+    # ----------------------------
+    # JSON OUTPUT
+    # ----------------------------
+
+    # Convert tuple keys so JSON can store Sudoku solutions
     for r in results:
         if "solution" in r and isinstance(r["solution"], dict):
             r["solution"] = {str(k): v for k, v in r["solution"].items()}
+
+    project_dir = os.path.dirname(os.path.abspath(__file__))
+    output_path = os.path.join(project_dir, "experiment_results.json")
 
     with open(output_path, "w") as f:
         json.dump(results, f, indent=2)
 
     print("Results saved to:", output_path)
-    print(f"All CSP experiments finished successfully. Total runs: {len(results)}")
+    print(f"\nAll experiments finished. Total runs: {len(results)}\n")
 
 
 if __name__ == "__main__":

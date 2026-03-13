@@ -1,0 +1,1 @@
+Only does baseline in the easy1 sudoku puzzle, because it would run for far too long when solving the others.
