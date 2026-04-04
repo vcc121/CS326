@@ -1,6 +1,5 @@
-File Structure
-text
-project_root/
+#README
+
 ├── agent.py               # TicTacToeAgent and WumpusAgent classes
 ├── alphabeta.py           # Alpha‑Beta pruning implementation
 ├── game.py                # TicTacToe game logic (board, moves, terminal test)
@@ -14,20 +13,16 @@ project_root/
 ├── tictactoe.py           # Run a single Tic‑Tac‑Toe game (Minimax vs Random)
 ├── tictactoe_experiments.py # Run 30 games (Minimax/Alpha‑Beta vs Random/Scripted)
 └── README.md              # This file
-Requirements
-Python 3.8 or higher.
 
-No external libraries – uses only random, time, json, collections, sys.
-
-Running Instructions
+##Running Instructions
 1. Wumpus World
-Run a single layout
-bash
-python wumpus.py <layout_name>
-Example:
+   
 
-bash
+python wumpus.py <layout_name>
+
+Example:
 python wumpus.py 8x8_easy
+
 Available layout names:
 4x4_easy, 4x4_medium, 4x4_hard,
 5x5_easy, 5x5_medium, 5x5_hard,
@@ -35,12 +30,12 @@ Available layout names:
 8x8_easy, 8x8_medium, 8x8_hard
 
 Run all layouts (default)
-bash
+
 python wumpus.py
 This runs every layout in test_layouts.py and saves a separate JSON file for each.
 
 Run via the experiment script
-bash
+
 python wumpus_experiments.py
 Same as python wumpus.py – runs all layouts.
 
