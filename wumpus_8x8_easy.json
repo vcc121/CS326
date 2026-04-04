@@ -1,0 +1,825 @@
+{
+    "problem": "wumpus",
+    "instance": "8x8_easy",
+    "config": "kb",
+    "success": true,
+    "runtime_ms": 11,
+    "moves_taken": 73,
+    "grid_size": 8,
+    "trace": [
+        {
+            "step": 0,
+            "position": [
+                0,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 1,
+            "position": [
+                1,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 2,
+            "position": [
+                2,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 3,
+            "position": [
+                3,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 4,
+            "position": [
+                4,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 5,
+            "position": [
+                5,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 6,
+            "position": [
+                6,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 7,
+            "position": [
+                7,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 8,
+            "position": [
+                7,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 9,
+            "position": [
+                6,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 10,
+            "position": [
+                5,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 11,
+            "position": [
+                4,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 12,
+            "position": [
+                3,
+                1
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 13,
+            "position": [
+                2,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 14,
+            "position": [
+                1,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 15,
+            "position": [
+                0,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 16,
+            "position": [
+                0,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 17,
+            "position": [
+                1,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 18,
+            "position": [
+                2,
+                2
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 19,
+            "position": [
+                1,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 20,
+            "position": [
+                1,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 21,
+            "position": [
+                2,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 22,
+            "position": [
+                3,
+                3
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": true
+            }
+        },
+        {
+            "step": 23,
+            "position": [
+                2,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 24,
+            "position": [
+                2,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 25,
+            "position": [
+                3,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 26,
+            "position": [
+                4,
+                4
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": true
+            }
+        },
+        {
+            "step": 27,
+            "position": [
+                3,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 28,
+            "position": [
+                3,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 29,
+            "position": [
+                4,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 30,
+            "position": [
+                5,
+                5
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 31,
+            "position": [
+                4,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 32,
+            "position": [
+                4,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 33,
+            "position": [
+                5,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 34,
+            "position": [
+                6,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 35,
+            "position": [
+                7,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 36,
+            "position": [
+                7,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 37,
+            "position": [
+                6,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 38,
+            "position": [
+                5,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 39,
+            "position": [
+                4,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 40,
+            "position": [
+                3,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 41,
+            "position": [
+                2,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 42,
+            "position": [
+                1,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 43,
+            "position": [
+                0,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 44,
+            "position": [
+                0,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 45,
+            "position": [
+                1,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 46,
+            "position": [
+                2,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 47,
+            "position": [
+                3,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 48,
+            "position": [
+                2,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 49,
+            "position": [
+                2,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 50,
+            "position": [
+                1,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 51,
+            "position": [
+                0,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 52,
+            "position": [
+                0,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 53,
+            "position": [
+                1,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 54,
+            "position": [
+                0,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 55,
+            "position": [
+                0,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 56,
+            "position": [
+                1,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 57,
+            "position": [
+                2,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 58,
+            "position": [
+                2,
+                2
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 59,
+            "position": [
+                2,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 60,
+            "position": [
+                3,
+                1
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 61,
+            "position": [
+                4,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 62,
+            "position": [
+                4,
+                2
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": true
+            }
+        },
+        {
+            "step": 63,
+            "position": [
+                5,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 64,
+            "position": [
+                6,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 65,
+            "position": [
+                7,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 66,
+            "position": [
+                7,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 67,
+            "position": [
+                6,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 68,
+            "position": [
+                5,
+                3
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": true
+            }
+        },
+        {
+            "step": 69,
+            "position": [
+                6,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 70,
+            "position": [
+                6,
+                4
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 71,
+            "position": [
+                7,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 72,
+            "position": [
+                7,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 73,
+            "position": [
+                6,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        }
+    ]
+}

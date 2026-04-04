@@ -1,0 +1,154 @@
+{
+    "problem": "wumpus",
+    "instance": "5x5_medium",
+    "config": "kb",
+    "success": true,
+    "runtime_ms": 2,
+    "moves_taken": 12,
+    "grid_size": 5,
+    "trace": [
+        {
+            "step": 0,
+            "position": [
+                0,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 1,
+            "position": [
+                1,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 2,
+            "position": [
+                2,
+                0
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 3,
+            "position": [
+                1,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 4,
+            "position": [
+                1,
+                1
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 5,
+            "position": [
+                0,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 6,
+            "position": [
+                0,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 7,
+            "position": [
+                1,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 8,
+            "position": [
+                2,
+                2
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": true
+            }
+        },
+        {
+            "step": 9,
+            "position": [
+                1,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 10,
+            "position": [
+                1,
+                3
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 11,
+            "position": [
+                0,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 12,
+            "position": [
+                0,
+                4
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        }
+    ]
+}

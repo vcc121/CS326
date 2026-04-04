@@ -1,0 +1,605 @@
+{
+    "problem": "wumpus",
+    "instance": "8x8_medium",
+    "config": "kb",
+    "success": true,
+    "runtime_ms": 15,
+    "moves_taken": 53,
+    "grid_size": 8,
+    "trace": [
+        {
+            "step": 0,
+            "position": [
+                0,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 1,
+            "position": [
+                1,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 2,
+            "position": [
+                2,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 3,
+            "position": [
+                3,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 4,
+            "position": [
+                4,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 5,
+            "position": [
+                5,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 6,
+            "position": [
+                6,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 7,
+            "position": [
+                7,
+                0
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 8,
+            "position": [
+                7,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 9,
+            "position": [
+                6,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 10,
+            "position": [
+                5,
+                1
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 11,
+            "position": [
+                4,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 12,
+            "position": [
+                3,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 13,
+            "position": [
+                2,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 14,
+            "position": [
+                1,
+                1
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 15,
+            "position": [
+                0,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 16,
+            "position": [
+                0,
+                2
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 17,
+            "position": [
+                0,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 18,
+            "position": [
+                1,
+                1
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 19,
+            "position": [
+                2,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 20,
+            "position": [
+                2,
+                2
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 21,
+            "position": [
+                3,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": true
+            }
+        },
+        {
+            "step": 22,
+            "position": [
+                4,
+                2
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 23,
+            "position": [
+                4,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 24,
+            "position": [
+                5,
+                1
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 25,
+            "position": [
+                6,
+                1
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 26,
+            "position": [
+                6,
+                2
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 27,
+            "position": [
+                7,
+                2
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 28,
+            "position": [
+                7,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 29,
+            "position": [
+                6,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 30,
+            "position": [
+                5,
+                3
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 31,
+            "position": [
+                6,
+                3
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 32,
+            "position": [
+                6,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 33,
+            "position": [
+                7,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 34,
+            "position": [
+                7,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 35,
+            "position": [
+                6,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 36,
+            "position": [
+                5,
+                5
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 37,
+            "position": [
+                5,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 38,
+            "position": [
+                4,
+                4
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 39,
+            "position": [
+                5,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 40,
+            "position": [
+                6,
+                4
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 41,
+            "position": [
+                6,
+                5
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 42,
+            "position": [
+                6,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 43,
+            "position": [
+                7,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 44,
+            "position": [
+                7,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 45,
+            "position": [
+                6,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 46,
+            "position": [
+                5,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 47,
+            "position": [
+                4,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 48,
+            "position": [
+                3,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 49,
+            "position": [
+                2,
+                7
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 50,
+            "position": [
+                3,
+                7
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        },
+        {
+            "step": 51,
+            "position": [
+                3,
+                6
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 52,
+            "position": [
+                4,
+                6
+            ],
+            "percept": {
+                "breeze": true,
+                "stench": false
+            }
+        },
+        {
+            "step": 53,
+            "position": [
+                5,
+                6
+            ],
+            "percept": {
+                "breeze": false,
+                "stench": false
+            }
+        }
+    ]
+}

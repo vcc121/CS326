@@ -1,0 +1,2392 @@
+[
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "random",
+    "game_id": 1,
+    "result": "win",
+    "runtime_ms": 1753,
+    "nodes_evaluated": 557676,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 7583
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": 145
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": 3
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "O",
+        "O"
+      ],
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        " ",
+        "O",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "random",
+    "game_id": 2,
+    "result": "win",
+    "runtime_ms": 1729,
+    "nodes_evaluated": 557432,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 7331
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 156
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "O",
+        "O",
+        " "
+      ],
+      [
+        " ",
+        " ",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "random",
+    "game_id": 3,
+    "result": "win",
+    "runtime_ms": 1686,
+    "nodes_evaluated": 558349,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 8231
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 173
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "O",
+        " ",
+        " "
+      ],
+      [
+        " ",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "random",
+    "game_id": 4,
+    "result": "win",
+    "runtime_ms": 1690,
+    "nodes_evaluated": 557659,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 7583
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": 124
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": 7
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "O",
+        "O"
+      ],
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        " ",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "random",
+    "game_id": 5,
+    "result": "win",
+    "runtime_ms": 1680,
+    "nodes_evaluated": 556489,
+    "moves_taken": 5,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 6379
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": 157
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": 7
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": 1
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "O",
+        "X"
+      ],
+      [
+        "O",
+        "X",
+        "X"
+      ],
+      [
+        "O",
+        "O",
+        "X"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "random",
+    "game_id": 6,
+    "result": "win",
+    "runtime_ms": 1682,
+    "nodes_evaluated": 557432,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 7331
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 156
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "O",
+        "O",
+        " "
+      ],
+      [
+        " ",
+        " ",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "random",
+    "game_id": 7,
+    "result": "win",
+    "runtime_ms": 1683,
+    "nodes_evaluated": 558296,
+    "moves_taken": 5,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 8231
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": 112
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 7
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 1
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "O",
+        "X"
+      ],
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "random",
+    "game_id": 8,
+    "result": "win",
+    "runtime_ms": 1671,
+    "nodes_evaluated": 557397,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 7331
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 121
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        " ",
+        "O",
+        " "
+      ],
+      [
+        "O",
+        " ",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "random",
+    "game_id": 9,
+    "result": "win",
+    "runtime_ms": 1667,
+    "nodes_evaluated": 556568,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 6379
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": 233
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": 11
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "O",
+        "X"
+      ],
+      [
+        " ",
+        "X",
+        "O"
+      ],
+      [
+        "O",
+        " ",
+        "X"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "random",
+    "game_id": 10,
+    "result": "win",
+    "runtime_ms": 1691,
+    "nodes_evaluated": 556421,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 6379
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 97
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        " ",
+        "O",
+        " "
+      ],
+      [
+        " ",
+        "O",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "scripted",
+    "game_id": 1,
+    "result": "win",
+    "runtime_ms": 1681,
+    "nodes_evaluated": 557483,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 7331
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 197
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 10
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        " "
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "scripted",
+    "game_id": 2,
+    "result": "win",
+    "runtime_ms": 1676,
+    "nodes_evaluated": 557483,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 7331
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 197
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 10
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        " "
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "scripted",
+    "game_id": 3,
+    "result": "win",
+    "runtime_ms": 1704,
+    "nodes_evaluated": 557483,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 7331
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 197
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 10
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        " "
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "scripted",
+    "game_id": 4,
+    "result": "win",
+    "runtime_ms": 1680,
+    "nodes_evaluated": 557483,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 7331
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 197
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 10
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        " "
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "minimax",
+    "opponent": "scripted",
+    "game_id": 5,
+    "result": "win",
+    "runtime_ms": 1710,
+    "nodes_evaluated": 557483,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 549945
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 7331
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 197
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 10
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        " "
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "random",
+    "game_id": 1,
+    "result": "win",
+    "runtime_ms": 58,
+    "nodes_evaluated": 18691,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 364
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 31
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "O",
+        " ",
+        "O"
+      ],
+      [
+        " ",
+        " ",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "random",
+    "game_id": 2,
+    "result": "win",
+    "runtime_ms": 63,
+    "nodes_evaluated": 19170,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 843
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 31
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        " ",
+        "O",
+        "O"
+      ],
+      [
+        " ",
+        " ",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "random",
+    "game_id": 3,
+    "result": "win",
+    "runtime_ms": 58,
+    "nodes_evaluated": 18977,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 640
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": 37
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": 4
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "O",
+        "O"
+      ],
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        " ",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "random",
+    "game_id": 4,
+    "result": "win",
+    "runtime_ms": 61,
+    "nodes_evaluated": 18999,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 640
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 63
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        " ",
+        "O"
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ],
+      [
+        "X",
+        " ",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "random",
+    "game_id": 5,
+    "result": "win",
+    "runtime_ms": 59,
+    "nodes_evaluated": 18667,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 334
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 37
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        " ",
+        " ",
+        " "
+      ],
+      [
+        "O",
+        "O",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "random",
+    "game_id": 6,
+    "result": "win",
+    "runtime_ms": 61,
+    "nodes_evaluated": 18755,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 364
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": 86
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 9
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "O",
+        "X"
+      ],
+      [
+        " ",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "random",
+    "game_id": 7,
+    "result": "win",
+    "runtime_ms": 62,
+    "nodes_evaluated": 19007,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 640
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": 66
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": 5
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "O",
+        "O"
+      ],
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "O",
+        " ",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "random",
+    "game_id": 8,
+    "result": "win",
+    "runtime_ms": 62,
+    "nodes_evaluated": 18697,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 364
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 37
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        " ",
+        " ",
+        "O"
+      ],
+      [
+        " ",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "random",
+    "game_id": 9,
+    "result": "win",
+    "runtime_ms": 61,
+    "nodes_evaluated": 18667,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 334
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 37
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        " ",
+        " ",
+        " "
+      ],
+      [
+        "O",
+        "O",
+        " "
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "random",
+    "game_id": 10,
+    "result": "win",
+    "runtime_ms": 60,
+    "nodes_evaluated": 19176,
+    "moves_taken": 3,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 843
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": 37
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        " ",
+        "O",
+        " "
+      ],
+      [
+        " ",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "scripted",
+    "game_id": 1,
+    "result": "win",
+    "runtime_ms": 61,
+    "nodes_evaluated": 19209,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 843
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 63
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 7
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        " "
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "scripted",
+    "game_id": 2,
+    "result": "win",
+    "runtime_ms": 63,
+    "nodes_evaluated": 19209,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 843
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 63
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 7
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        " "
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "scripted",
+    "game_id": 3,
+    "result": "win",
+    "runtime_ms": 61,
+    "nodes_evaluated": 19209,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 843
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 63
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 7
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        " "
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "scripted",
+    "game_id": 4,
+    "result": "win",
+    "runtime_ms": 62,
+    "nodes_evaluated": 19209,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 843
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 63
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 7
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        " "
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  },
+  {
+    "problem": "tictactoe",
+    "config": "alphabeta",
+    "opponent": "scripted",
+    "game_id": 5,
+    "result": "win",
+    "runtime_ms": 61,
+    "nodes_evaluated": 19209,
+    "moves_taken": 4,
+    "trace": [
+      {
+        "player": "X",
+        "move": [
+          0,
+          0
+        ],
+        "nodes": 18296
+      },
+      {
+        "player": "O",
+        "move": [
+          1,
+          1
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          0,
+          1
+        ],
+        "nodes": 843
+      },
+      {
+        "player": "O",
+        "move": [
+          0,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          2,
+          0
+        ],
+        "nodes": 63
+      },
+      {
+        "player": "O",
+        "move": [
+          2,
+          2
+        ],
+        "nodes": null
+      },
+      {
+        "player": "X",
+        "move": [
+          1,
+          0
+        ],
+        "nodes": 7
+      }
+    ],
+    "final_board": [
+      [
+        "X",
+        "X",
+        "O"
+      ],
+      [
+        "X",
+        "O",
+        " "
+      ],
+      [
+        "X",
+        " ",
+        "O"
+      ]
+    ]
+  }
+]
