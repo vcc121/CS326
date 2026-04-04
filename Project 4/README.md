@@ -1,23 +1,39 @@
-#README
-
+# README
+## File Structure
 ├── agent.py               # TicTacToeAgent and WumpusAgent classes
+
 ├── alphabeta.py           # Alpha‑Beta pruning implementation
+
 ├── game.py                # TicTacToe game logic (board, moves, terminal test)
+
 ├── kb.py                  # KnowledgeBase for Wumpus (safe/unsafe, pit_free, wumpus_free)
+
 ├── minimax.py             # Minimax search implementation
+
 ├── opponents.py           # RandomOpponent (and ScriptedOpponent defined in experiments)
+
 ├── test_layouts.py        # All Wumpus layouts (4x4, 5x5, 7x7, 8x8, easy/medium/hard)
+
 ├── world.py               # WumpusWorld environment (percepts, neighbors, pits)
+
 ├── wumpus.py              # Run a single Wumpus layout or all layouts (saves JSON)
+
 ├── wumpus_experiments.py  # Run all Wumpus layouts sequentially
+
 ├── tictactoe.py           # Run a single Tic‑Tac‑Toe game (Minimax vs Random)
+
 ├── tictactoe_experiments.py # Run 30 games (Minimax/Alpha‑Beta vs Random/Scripted)
+
 └── README.md              # This file
 
-##Running Instructions
+## Running Instructions
+Both Tic-Tac-Toe and Wumpus World can be run directly or experimentally. Experiment files are meant to run the all the different variations required for analysis in Option B. Quick overview can be found at the bottom.
+
 1. Wumpus World
    
+Wumpus World is ran through the wumpus.py, then a layout is selected as the config. If you just run wumpus.py, it will run all layouts. See examples and more information below.
 
+Example:
 python wumpus.py <layout_name>
 
 Example:
@@ -45,6 +61,9 @@ Terminal: step‑by‑step percepts, moves, final summary.
 JSON file: wumpus_<layout_name>.json containing problem, instance, config, success, runtime_ms, moves_taken, grid_size, trace.
 
 2. Tic‑Tac‑Toe
+
+Tic‑Tac‑Toe is ran through the tictactoe.py. See examples and more information below.
+
 Run a single game (Minimax vs Random)
 bash
 python tictactoe.py
@@ -95,7 +114,7 @@ nodes_evaluated – total number of game states explored (for the AI’s moves o
 trace – each move with player, move coordinates, and (for AI) nodes evaluated.
 
 Example Commands (Quick Start)
-bash
+
 # Wumpus World
 python wumpus.py 4x4_easy
 python wumpus.py                      # all layouts
@@ -104,7 +123,3 @@ python wumpus_experiments.py          # same as above
 # Tic‑Tac‑Toe
 python tictactoe.py                   # single game vs random
 python tictactoe_experiments.py       # full 30‑game experiment suite
-Notes
-The Wumpus agent never guesses – it only moves into squares proved safe (both pit‑free and wumpus‑free). On layouts where the start cell has a breeze or stench, it may stop immediately. This is correct behaviour.
-
-Alpha‑Beta pruning is implemented as an optimisation – it returns the same move as Minimax but evaluates far fewer nodes.
