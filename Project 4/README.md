@@ -117,9 +117,11 @@ Example Commands (Quick Start)
 
 # Wumpus World
 python wumpus.py 4x4_easy
-python wumpus.py                      # all layouts
-python wumpus_experiments.py          # same as above
+
+python wumpus.py                      (all layouts)
+
+python wumpus_experiments.py          (same as above, but goes directly to JSON)
 
 # Tic‑Tac‑Toe
-python tictactoe.py                   # single game vs random
-python tictactoe_experiments.py       # full 30‑game experiment suite
+python tictactoe.py                   (single game vs random)
+python tictactoe_experiments.py       (full 30‑game experiment suite)
