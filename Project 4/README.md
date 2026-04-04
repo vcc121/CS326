@@ -26,6 +26,21 @@
 
 └── README.md              # This file
 
+## Testing
+
+Run the full test suite to verify that all components work correctly:
+
+python tests.py
+
+
+The tests check:
+
+Wumpus World: percept generation, knowledge base updates, and that the agent never moves into a square known to be unsafe.
+
+Tic‑Tac‑Toe: legal move generation, terminal state detection, Minimax’s ability to choose a winning or blocking move, and Alpha‑Beta consistency with Minimax.
+
+All tests should pass with OK output.
+
 ## Running Instructions
 Both Tic-Tac-Toe and Wumpus World can be run directly or experimentally. Experiment files are meant to run the all the different variations required for analysis in Option B. Quick overview can be found at the bottom.
 
