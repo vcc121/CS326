@@ -1,4 +1,5 @@
 # bitboard_utils.py
+#this is now an unused file
 from bitboard_constants import SQUARES
 
 def shift_north(bitboard):

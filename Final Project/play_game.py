@@ -9,7 +9,7 @@ import sys
 DEFAULT_DEPTH = 4
 USE_MULTIPROCESSING = True
 NUM_PROCESSES = 4
-HUMAN_PLAYS = False           # True: human plays White, AI plays Black. False: AI vs AI
+HUMAN_PLAYS = True           # True: human plays White, AI plays Black. False: AI vs AI
 SHOW_LEGAL_MOVES = False      # If True, prints all legal moves when it's human's turn
 # ====================================
 

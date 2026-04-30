@@ -1,5 +1,6 @@
 # alphabeta.py – with transposition table support
 import math
+from transposition_table import EXACT, LOWER_BOUND, UPPER_BOUND
 
 class SearchStats:
     def __init__(self):
@@ -10,21 +11,34 @@ def alphabeta(state, depth, alpha, beta, maximizing, stats, current_depth=0, ord
     stats.nodes += 1
     stats.max_depth = max(stats.max_depth, current_depth)
 
+    original_alpha = alpha
+
     # Probe transposition table
     if tt is not None:
         key = state.board.hash()
         entry = tt.lookup(key)
         if entry is not None:
-            entry_depth, entry_value, entry_move = entry
+            entry_depth, entry_value, entry_move, entry_flag = entry
             if entry_depth >= depth:
-                if entry_value >= beta:
+                if entry_flag == EXACT:
                     return entry_value, entry_move
-                if entry_value <= alpha:
+                elif entry_flag == LOWER_BOUND and entry_value >= beta:
+                    return entry_value, entry_move
+                elif entry_flag == UPPER_BOUND and entry_value <= alpha:
                     return entry_value, None
-                # Otherwise, we could still use entry_move for ordering, but not done here
+                # TT hit with wrong bound: entry_move still useful for ordering below
 
     if depth <= 0 or state.is_terminal():
-        return state.utility(), None
+        score = state.utility()
+        # Depth-adjust mate scores so the engine always prefers the fastest mate
+        # (or longest resistance when getting mated).
+        # A mate at current_depth=1 scores ±9999; at current_depth=5 it scores ±9995.
+        # The engine therefore picks the shallower (quicker) mating line.
+        if score >= 9000:
+            score -= current_depth   # white mating: closer mate = higher score
+        elif score <= -9000:
+            score += current_depth   # black mating: closer mate = lower (more negative) score
+        return score, None
 
     if ordered_moves is not None and current_depth == 0:
         moves = ordered_moves
@@ -62,9 +76,15 @@ def alphabeta(state, depth, alpha, beta, maximizing, stats, current_depth=0, ord
                 break
         best_eval = min_eval
 
-    # Store result in transposition table
+    # Store result in transposition table with correct node type flag
     if tt is not None:
         key = state.board.hash()
-        tt.store(key, depth, best_eval, best_move)
+        if best_eval <= original_alpha:
+            flag = UPPER_BOUND   # failed low: this is an upper bound
+        elif best_eval >= beta:
+            flag = LOWER_BOUND   # failed high (cut node): this is a lower bound
+        else:
+            flag = EXACT         # inside the window: exact minimax value
+        tt.store(key, depth, best_eval, best_move, flag)
 
     return best_eval, best_move

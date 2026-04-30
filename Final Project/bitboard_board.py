@@ -164,7 +164,14 @@ class BitboardBoard:
             return dr == 0 or dc == 0 or abs(dr) == abs(dc)
         # King
         if piece_type == 5:
-            return max(abs(dr), abs(dc)) == 1
+            # Normal king move: 1 square in any direction.
+            # Castling: king moves exactly 2 squares horizontally on its home rank.
+            if max(abs(dr), abs(dc)) == 1:
+                return True
+            # Castling: 2 squares horizontally, no vertical movement
+            if dr == 0 and abs(dc) == 2:
+                return True
+            return False
         return True
 
     def _generate_pseudo_moves(self, turn):

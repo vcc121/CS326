@@ -15,6 +15,9 @@ class MultiprocessSearchManager:
         if not root_moves:
             return None, -math.inf, 0, 0
 
+        # FIX: black minimizes, white maximizes
+        maximizing = (self.state.turn == "white")
+
         chunks = [[] for _ in range(self.num_processes)]
         for i, move in enumerate(root_moves):
             chunks[i % self.num_processes].append(move)
@@ -26,16 +29,19 @@ class MultiprocessSearchManager:
                 continue
             p = multiprocessing.Process(
                 target=self._worker,
-                args=(chunk, self.state, self.max_depth, self.time_limit_ms, results)
+                args=(chunk, self.state, self.max_depth, self.time_limit_ms, maximizing, results)
             )
             p.start()
             processes.append(p)
 
         best_move = None
-        best_score = -math.inf
+        best_score = -math.inf if maximizing else math.inf
         for _ in range(len(processes)):
             move, score = results.get()
-            if score > best_score:
+            if maximizing and score > best_score:
+                best_score = score
+                best_move = move
+            elif not maximizing and score < best_score:
                 best_score = score
                 best_move = move
 
@@ -45,15 +51,18 @@ class MultiprocessSearchManager:
         return best_move, best_score, self.max_depth, None
 
     @staticmethod
-    def _worker(moves_chunk, original_state, max_depth, time_limit_ms, result_queue):
+    def _worker(moves_chunk, original_state, max_depth, time_limit_ms, maximizing, result_queue):
         local_state = original_state.copy()
         best_move = None
-        best_score = -math.inf
+        best_score = -math.inf if maximizing else math.inf
         for move in moves_chunk:
             new_state = local_state.result(move)
             mgr = SearchManager(new_state, max_depth=max_depth-1, time_limit_ms=time_limit_ms, verbose=False)
             _, score, _, _ = mgr.search()
-            if score > best_score:
+            if maximizing and score > best_score:
+                best_score = score
+                best_move = move
+            elif not maximizing and score < best_score:
                 best_score = score
                 best_move = move
         result_queue.put((best_move, best_score))

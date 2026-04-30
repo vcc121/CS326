@@ -30,6 +30,10 @@ class SearchManager:
         self.previous_best_move = None
         self.previous_score = 0
 
+        # FIX: determine search direction from whose turn it is.
+        # utility() is always from white's perspective, so white maximizes and black minimizes.
+        maximizing = (self.state.turn == "white")
+
         max_eff = self.max_depth + self.depth_offset
         for eff_depth in range(1, max_eff + 1):
             if self.time_exceeded():
@@ -46,7 +50,7 @@ class SearchManager:
 
             ordered_moves = self.order_root_moves()
             stats = SearchStats()
-            score, move = alphabeta(self.state, eff_depth, alpha, beta, True, stats, 0, ordered_moves, self.tt)
+            score, move = alphabeta(self.state, eff_depth, alpha, beta, maximizing, stats, 0, ordered_moves, self.tt)
 
             if move is None:
                 if self.verbose:
@@ -57,12 +61,12 @@ class SearchManager:
                 if self.verbose:
                     print(f"Fail low at depth {eff_depth} (score {score} <= {alpha}), re-searching full window")
                 stats = SearchStats()
-                score, move = alphabeta(self.state, eff_depth, -math.inf, math.inf, True, stats, 0, ordered_moves, self.tt)
+                score, move = alphabeta(self.state, eff_depth, -math.inf, math.inf, maximizing, stats, 0, ordered_moves, self.tt)
             elif score >= beta:
                 if self.verbose:
                     print(f"Fail high at depth {eff_depth} (score {score} >= {beta}), re-searching full window")
                 stats = SearchStats()
-                score, move = alphabeta(self.state, eff_depth, -math.inf, math.inf, True, stats, 0, ordered_moves, self.tt)
+                score, move = alphabeta(self.state, eff_depth, -math.inf, math.inf, maximizing, stats, 0, ordered_moves, self.tt)
 
             self.move_scores[move] = score
             self.root_moves = ordered_moves
